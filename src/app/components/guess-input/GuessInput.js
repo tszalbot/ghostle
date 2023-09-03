@@ -1,15 +1,15 @@
-'use client';
-export function GuessInput({ ghosts, onGuess, disabled }) {
-  function onSubmit(e) {
+'use client'
+export function GuessInput ({ ghosts, onGuess, disabled }) {
+  function onSubmit (e) {
     e.preventDefault()
 
     const guessInput = e.target.guess
     const guess = guessInput.value.trim()
-    const ghost = ghosts.find(({ name }) => 
+    const ghost = ghosts.find(({ name }) =>
       name.toLowerCase() === guess.toLowerCase()
     )
 
-    if(ghost) {
+    if (ghost) {
       guessInput.value = ''
       onGuess(ghost)
     }

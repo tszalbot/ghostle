@@ -5,167 +5,167 @@ export const ghosts = [{
   evidences: [
     evidenceEnum.spiritbox,
     evidenceEnum.drawing,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Deogen',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.fingerprint,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Agash',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.freezing,
-    evidenceEnum.fingerprint,
+    evidenceEnum.fingerprint
   ]
 }, {
   name: 'Shade',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.spiritbox,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Onryo',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.fingerprint,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Oni',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.freezing,
-    evidenceEnum.fingerprint,
+    evidenceEnum.fingerprint
   ]
 }, {
   name: 'Thaye',
   evidences: [
     evidenceEnum.spiritbox,
     evidenceEnum.fingerprint,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Raiju',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.freezing,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Mare',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.freezing,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Naamah',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.drawing,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Abaddon',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.freezing,
-    evidenceEnum.spiritbox,
+    evidenceEnum.spiritbox
   ]
 }, {
   name: 'Guipo',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.spiritbox,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Revenant',
   evidences: [
     evidenceEnum.fingerprint,
     evidenceEnum.freezing,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Poltergeist',
   evidences: [
     evidenceEnum.spiritbox,
     evidenceEnum.fingerprint,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Jinn',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.freezing,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Hantu',
   evidences: [
     evidenceEnum.spiritbox,
     evidenceEnum.freezing,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Wraith',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.ectoplasm,
-    evidenceEnum.fingerprint,
+    evidenceEnum.fingerprint
   ]
 }, {
   name: 'Myling',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.spiritbox,
-    evidenceEnum.freezing,
+    evidenceEnum.freezing
   ]
 }, {
   name: 'Goryo',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.fingerprint,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Demon',
   evidences: [
     evidenceEnum.ectoplasm,
     evidenceEnum.freezing,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Yokai',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.spiritbox,
-    evidenceEnum.drawing,
+    evidenceEnum.drawing
   ]
 }, {
   name: 'Gul',
   evidences: [
     evidenceEnum.freezing,
     evidenceEnum.fingerprint,
-    evidenceEnum.spiritbox,
+    evidenceEnum.spiritbox
   ]
 }, {
   name: 'Boogey',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.spiritbox,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
 }, {
   name: 'Yurei',
   evidences: [
     evidenceEnum.emf5,
     evidenceEnum.ectoplasm,
-    evidenceEnum.esg,
+    evidenceEnum.esg
   ]
-},]
+}]

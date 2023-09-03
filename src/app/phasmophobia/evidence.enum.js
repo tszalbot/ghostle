@@ -5,5 +5,5 @@ export const evidenceEnum = {
   orb: 'Ghost Orb',
   writing: 'Ghost Writing',
   spiritbox: 'Spirit Box',
-  freezing: 'Freezing Temperatures',
+  freezing: 'Freezing Temperatures'
 }

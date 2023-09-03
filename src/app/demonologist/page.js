@@ -2,7 +2,7 @@ import { ghosts } from './ghosts'
 import { evidenceEnum } from './evidence.enum'
 import { Core } from '../components/core/Core'
 
-export default function Demonologist() {
+export default function Demonologist () {
   return (
     <main className="main">
       <Core
