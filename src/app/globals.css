@@ -25,3 +25,91 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  @apply text-xl text-center;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded bg-blue-500 text-white;
+}
+.btn:hover {
+  @apply bg-blue-700;
+}
+
+.main {
+  @apply flex h-screen flex-col items-center justify-stretch p-4 md:p-24;
+}
+
+.input {
+  @apply font-bold py-2 px-4 bg-white text-black;
+}
+
+.guess-table {
+  @apply flex flex-col overflow-y-auto w-full h-full scroll-smooth;
+}
+
+.guess-row {
+  @apply relative flex;
+}
+.guess-row.success:after {
+  content: "";
+  @apply absolute w-full h-full bg-white bg-opacity-20 left-0 top-0;
+  @apply animate-pulse;
+}
+
+.guess-col {
+  @apply flex justify-center items-center w-full p-4 text-center;
+  @apply border-white border-2 border-opacity-75;
+}
+.guess-col.success {
+  @apply bg-green-700;
+}
+.guess-col.error {
+  @apply bg-red-700;
+}
+.dialog {
+  @apply fixed z-20;
+}
+.dialog-frame {
+  @apply fixed top-0 right-0;
+  @apply w-full lg:w-1/2 h-full bg-slate-700 overflow-y-auto;
+  @apply transition-transform translate-x-full duration-300;
+
+  .opened & {
+    @apply translate-x-0;
+  }
+}
+.dialog-backdrop {
+  @apply fixed left-0 right-0 top-0 bottom-0;
+  @apply bg-black bg-opacity-50;
+  @apply opacity-0 transition-opacity pointer-events-none;
+
+  .opened & {
+    @apply opacity-100 pointer-events-auto;
+  }
+}
+.dialog-header {
+  @apply flex justify-between p-4;
+}
+.dialog-body {
+  @apply px-4 pb-4;
+}
+.menu-evidences {
+  @apply grid grid-cols-1 sm:grid-cols-2;
+}
+.menu-ghost {
+  @apply p-2;
+
+  &.active {
+    @apply cursor-pointer;
+
+    &:hover {
+      @apply underline;
+    }
+  }
+
+  &.inactive {
+    @apply line-through text-gray-400;
+  }
+}
